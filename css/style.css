@@ -1,0 +1,674 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+/* ESTILADO DEL HEADER */
+
+header {
+  background-color: rgba(9, 9, 9, 0.881);
+}
+
+/* TERMINA ESTILADO DEL HEADER */
+
+/* ESTILADO BARRA DE NAVEGACION  */
+
+.nav-item:hover {
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
+.carrito {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+.boton-carrito {
+  color: rgba(0, 0, 0, 0.378);
+}
+
+/* TERMINA ESTILADO DE BARRA DE NAVEGACION */
+
+/* ESTILADO DEL LOGO */
+
+.j {
+  color: red;
+}
+
+.k {
+  color: red;
+}
+
+/* TERMINA ESTILADO DEL LOGO */
+
+/* ESTILADO DE SLIDER */
+
+.zapas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100%;
+  height: 260vh;
+  max-width: 96%;
+  height: 100%;
+}
+
+.carousel-indicators li {
+  display: none;
+}
+
+.carousel-control-prev-icon {
+  border-radius: solid;
+  height: 15px;
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  border-radius: solid;
+  height: 15px;
+  background-color: black;
+}
+
+/* TERMINA ESTILADO DE SLIDER */
+
+/* ESTILADO DEL H2 */
+
+h2 {
+  font-size: xx-large;
+  font-weight: bolder;
+  background-color: rgba(9, 9, 9, 0.881);
+  color: white;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+/* TERMINA ESTILADO DEL H2 */
+
+/* EMPIEZA ESTILADO DE LOS SNEAKERS */
+
+img.destacados {
+  height: 100%;
+  width: auto;
+  max-height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container-items {
+  display: flex;
+}
+
+.item {
+  margin: 0px 80px 0px 50px;
+  border-radius: 10px;
+}
+
+.item:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.info-product {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.info-product button {
+  border: none;
+  background: none;
+  background-color: black;
+  color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+/* TERMINA ESTILADO DE LOS SNEAKERS */
+
+/* EMPIEZA ESTILADO DE INDUMENTARIA */
+
+.indumentaria-items {
+  display: flex;
+  justify-content: center;
+}
+
+.induitems {
+  margin: 0px 80px 0px 50px;
+  border-radius: 10px;
+}
+
+.induitems:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+img.indu {
+  height: 100%;
+  max-height: 180px;
+  width: 230px;
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info-product {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.info-product button {
+  border: none;
+  background: none;
+  background-color: black;
+  color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+/* TERMINA ESTILADO DE INDUMENTARIA */
+
+/* EMPIEZA ESTILADO DE EL FOOTER */
+
+.footer {
+  height: 24vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 500px;
+}
+
+.navegacion {
+  list-style-type: none;
+  font-size: large;
+}
+
+.navegacion a {
+  color: white;
+}
+
+.navegacion li a {
+  color: white;
+}
+
+.titulo__footer {
+  font-size: x-large;
+}
+
+.footer__ig {
+  font-size: 25px;
+}
+
+.footer__twitter {
+  font-size: 25px;
+}
+
+.footer__git {
+  font-size: 25px;
+}
+
+/* TERMINA ESTILADO DEL FOOTER */
+
+/* TERMINA INDEX.HTML */
+
+/* EMPIEZA ESTILADO DE SNEAKERS.HTML Y INDUMENTARIA.HTML */
+
+/* H1 */
+
+h1 {
+  text-align: center;
+}
+
+/* H1 */
+
+/* breadcrumb */
+
+/* breadcrumb */
+
+/* P */
+
+.mensaje {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.459);
+}
+
+strong {
+  color: black;
+}
+
+/* P */
+
+/* TERMINA ESTILADO SNEAKERS.HTML Y INDUMENTARIA HTML */
+
+/* EMPIEZA ESTILADO QUIENESSOMOS.HTML */
+
+.quienessomosh2 {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+/* TERMINA ESTILADO QUIENESSOMOS.HTML */
+
+/* EMPIEZA ESTILADO CONTACTO.HTML */
+
+/* EMPIEZA ESTILADO DE CONTACTO.HTML */
+
+.bodi {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.logo {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.logo span {
+  color: #b70e21;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1rem;
+}
+
+.contact-form {
+  background-color: #222222;
+}
+
+.contact-form p {
+  padding: 7px;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1rem;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+  grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.4rem;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+  background-color: #b70e21;
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  margin: 0 5%;
+}
+
+.contact-form form button:hover {
+  background-color: #d63031;
+  color: #fff;
+  transition: 0.1s;
+  outline: 0;
+  cursor: pointer;
+}
+
+.contact-info {
+  background-color: #000;
+}
+
+.mensaje2 {
+  text-align: center;
+  color: #fff;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.exportadas {
+  color: #bab6b675;
+}
+
+.contact-info ul li {
+  padding: 0.2rem;
+  color: white;
+}
+
+.contact-info ul a {
+  text-decoration: none;
+}
+
+/* CARRITO */
+
+.contenedor-carrito {
+  display: flex;
+  flex-direction: column;
+}
+
+.carrito-vacio {
+  color: black;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.carrito-sneakers {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.carrito-sneaker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.119);
+  padding: 0.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+}
+
+.carrito-sneaker-imagen {
+  width: 9rem;
+  border-radius: 1rem;
+}
+
+.carrito-producto-small {
+  font-size: 0.75rem;
+}
+
+.sneaker-eliminar {
+  border: 0;
+  background-color: transparent;
+  color: rgba(255, 0, 0, 0.76);
+  cursor: pointer;
+}
+
+.carrito-acciones {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.carrito-acciones-vaciar {
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.119);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: rgba(0, 0, 0, 0.745);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.carrito-acciones-comprar {
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.119);
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.745);
+  text-transform: uppercase;
+  cursor: pointer;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.carrito-acciones-total {
+  display: flex;
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.119);
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.745);
+  text-transform: uppercase;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.carrito-acciones-derecha {
+  display: flex;
+}
+
+.disabled {
+  display: none;
+}
+
+/* EMPIEZAN MEDIA QUERIES */
+
+@media screen and (max-width: 576px) {
+  /* ESTILADO DE FILTRO Y BREADCRUMB */
+
+  .breadcrumb-item {
+    font-size: 18px;
+  }
+
+  /* EMPIEZA ESTILADO DE INDEX.HTML */
+
+  h2 {
+    font-size: large;
+  }
+
+  .zapas {
+    max-width: 100%;
+  }
+
+  .carousel__img {
+    width: 100%;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  /* TERMINA ESTILADO DE INDEX.HTML */
+
+  /* EMPIEZA ESTILAOD DE SNEAKERS.HTML */
+
+  .container-items {
+    display: grid;
+    justify-content: center;
+    gap: 7px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "zapas zapas2"
+      "zapas3 zapas4";
+  }
+
+  .zapas1 {
+    grid-area: zapas;
+  }
+
+  .zapas2 {
+    grid-area: zapas2;
+  }
+
+  .zapas3 {
+    grid-area: zapas3;
+  }
+
+  .zapas4 {
+    grid-area: zapas4;
+  }
+
+  img.destacados {
+    width: 100%;
+    height: 42%;
+  }
+
+  .item {
+    width: 90%;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  h4 {
+    font-size: medium;
+  }
+
+  .info-product button {
+    padding: 0px;
+    margin: 0;
+  }
+
+  /* TERMINA ESTILADO DE SNEAKERS.HTML */
+
+  /* EMPIEZA ESTILADO DE INDUMENTARIA.HTML */
+
+  .indumentaria-items {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "indu1 indu2"
+      "indu3 indu4";
+  }
+
+  .indu1 {
+    grid-area: indu1;
+  }
+
+  .indu2 {
+    grid-area: indu2;
+  }
+
+  .indu3 {
+    grid-area: indu3;
+  }
+
+  .indu4 {
+    grid-area: indu4;
+  }
+
+  img.indu {
+    width: 100%;
+    height: 100%;
+  }
+
+  .induitems {
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  /* TERMINA ESTILADO DE INDUMENTARIA.HTML */
+
+  /* EMPIEZA ESTILADO DEL FOOTER */
+
+  .footer {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .titulo__footer {
+    font-size: large;
+  }
+
+  .navegacion li {
+    font-size: small;
+    display: block;
+  }
+
+  /* TERMINA ESTILADO DEL FOOTER */
+
+  /* EMPIEZA ESTILADO DE CONTACTO.HTML */
+
+  .body {
+    padding: 0;
+  }
+
+  .logo {
+    text-align: center;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  .contact-form form button {
+    margin: 0 6%;
+  }
+
+  .contact-form form p {
+    padding: 0.6rem;
+  }
+
+  .content {
+    padding: 0;
+  }
+
+  /* TERMINA ESTILADO DE CONTACTO.HTML */
+}
+
+@media screen and (min-width: 700px) {
+  /* EMPIEZA ESTILADO DE CONTACTO.HTML */
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .contact-wrapper > * {
+    padding: 2rem;
+  }
+
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  /* TERMINA ESTILADO DE CONTACTO.HTML */
+}
